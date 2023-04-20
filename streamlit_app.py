@@ -65,7 +65,9 @@ def main():
     # Display Images   
     # if uploaded_file is not None:
     # image = Image.open(uploaded_file)
-    
+    st.write("""
+            Use 1024x1024 pixel images. Sample images can be downloaded from [here](https://github.com/mrjakhi/SIADS-capstone-building-damage-detection-TEAM-GOONERS-/tree/main/Sample%20data/images)
+        """)
     col1, col2 = st.columns( [0.5, 0.5])
     
     with col1:
